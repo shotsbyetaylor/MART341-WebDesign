@@ -1,0 +1,29 @@
+
+
+    body {background-color: forestgreen}
+    h1, h2, h3, h4, h5 {
+        color: #FFC000
+    }
+    p {
+        color: burlywood
+    }
+    ul {
+        color: burlywood
+    }
+    body {
+        max-width: 90%;
+        margin-left: 100px;    
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .scrl {
+        border: 5px outset darkblue;
+        background-color: lightblue;
+    }
+
+    .links {
+        border: 5px outset red;
+        background-color: lightblue;
+        text-align: center;
+    }
