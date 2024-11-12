@@ -1,0 +1,86 @@
+    @font-face {
+        font-family: 'MangoG';
+        src: url(./fonts/MangoGrotesque-VF.ttf) format('truetype');
+        font-style: normal;
+        font-size: large;
+    }
+
+    @font-face {
+        font-family: 'Arvo';
+        src: url('../fonts/Arvo-Regular.ttf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    /* What is the weight for the “bold” version?*/
+    @font-face {
+        font-family: 'Arvo';
+        src: url('../fonts/Arvo-Bold.ttf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    /* What is the style for the “italic” version? */
+    @font-face {
+        font-family: 'Arvo';
+        src: url('../fonts/Arvo-Italic.ttf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    /* Add the URL, weight, and style for the “bold-italic” version: */
+    @font-face {
+        font-family: 'Arvo';
+        src: url('') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+
+
+    body {
+        background-color: forestgreen;
+    }
+    h1, h2, h3, h4, h5 {
+        color: #FFC000;
+    }
+    p {
+        color: burlywood;
+    }
+    ul {
+        color: burlywood;
+    }
+    body {
+        max-width: 90%;
+        margin-left: 100px;    
+        margin-top: 50px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    .scrl {
+        border: 5px outset darkblue;
+        background-color: lightblue;
+    }
+
+    .links {
+        border: 5px outset red;
+        background-color: lightblue;
+        text-align: center;
+    }
+
+
+    /* example: */
+.p1 {
+    font-family: sans-serif;
+ }
+ .p2 {
+    font-family: serif;
+ }
+ .p3 {
+    font-family: monospace;
+ }
+ 
+ 
+
