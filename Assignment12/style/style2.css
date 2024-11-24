@@ -1,0 +1,88 @@
+body {
+    margin: 5%;
+    background-color: rgb(77, 77, 77);
+    overflow: scroll;
+}
+  h1 {
+    color: #FFC000;
+    font-size: xxx-large;
+}
+  h2 {
+    color: black;
+}
+  h3 {
+    color: #FFC000;
+}
+  p {
+    color: burlywood;
+}
+  ul {
+    color: burlywood;
+}
+  ol {
+    color: burlywood;
+}
+
+img {
+    border-radius: 40px;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'MangoG';
+    src: url(./fonts/MangoGrotesque-VF.ttf) format('truetype');
+    font-style: normal;
+    font-size: large;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* What is the weight for the “bold” version?*/
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* What is the style for the “italic” version? */
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Add the URL, weight, and style for the “bold-italic” version: */
+@font-face {
+    font-family: 'Arvo';
+    src: url('') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
