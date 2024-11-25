@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Head Elements">
+    <meta name="author" content="Justine Evans">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defining Head Elements: An Example</title>
+    <link rel="stylesheet" href="style/style2.css">
+    <style>
+      html {
+        background-color: rgb(44, 90, 44);
+      }
+
+      body {
+        text-align: center;
+        font-family: 'MangoG', sans-serif;
+      }
+
+
+
+      .links {
+          margin-left: 20%;
+          margin-right: 20%;
+          border: 5px outset;
+          border-width: 20px;
+          background-color: lightblue;
+          text-align: center;
+          position: relative;
+          bottom: 50px;
+          
+        }
+
+      .centered-list-container {
+           text-align: center;
+        }
+        
+      .centered-list {
+          display: inline-block;
+          text-align: left; /* Optional: aligns list items text to the left within the list */
+        }
+
+      .border {
+          margin-left: 10%;
+          margin-right: 10%;
+          font-family: 'Arvo', sans-serif;
+          text-align: justify;
+      }
+
+      .p4 {
+          font-family: Times;
+      }
+
+.hover-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adds a smooth transition */
+    font-size: 150%;
+}
+
+/* Hover effect */
+.hover-button:hover {
+    background-color: #2980b9;
+    color: red;
+}
+
+        
+    </style>
+  </head>
+   
+   <body class="outer-box">
+
+    <header class="">
+      <div class="menu-item">
+         <a href="home.html">Home</a></div>
+      <div class="menu-item">
+         <a href="avail.html">Availabilities</a></div>
+      <div class="menu-item">
+         <a href="gallery.html">Gallery</a></div>
+      <div class="menu-item dropdown">
+         <a href="index.html">Guides</a>
+         <div class="dropdown-content">
+            <div class="dropdown-item">
+               <a href="#">Shutter Speed</a></div>
+            <div class="dropdown-item">
+               <a href="#">Appeture</a></div>
+            <div class="dropdown-item">
+               <a href="#">Iso</a></div>
+         </div>
+      </div>
+   </header>
+
+
+
+      <img class="bg" src="./media/tay.JPG" alt="MSM Owner - Taylor Denton" title="heading"/>
+
+      <br>
+      <h1>Mountain State Media</h1>
+      <br>
+      <br>
+      <br>
+
+
+        <div id="link" class="links">
+
+          <a href="index.html">HOME</a>
+          <a href="avail.html">AVAILABILITIES</a>
+          <a href="gallery.html">GALLERY</a>
+  
+        </div>
+
+   </body>
+
+</html>

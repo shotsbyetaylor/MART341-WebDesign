@@ -1,0 +1,1 @@
+I believe I have completed all required techniques. One thing I could not figure out is for my dropdown menu, I would like to have each sction take you directly to that topic on my index "guides" page. I could not figure out how to do this, so if you know please let me know!
