@@ -1,0 +1,242 @@
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(77, 77, 77);
+    overflow: scroll;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  h1 {
+    color: black;
+    font-size: xxx-large;
+}
+  h2 {
+    color: black;
+}
+  h3 {
+    color: black;
+}
+  h6 {
+    color: white;
+  }
+  
+  p {
+    color: grey;
+}
+  ul {
+    color: white;
+}
+  ol {
+    color: white;
+}
+
+  img {
+    border-radius: 40px;
+    width: 80%;
+}
+.bg {
+  border-radius: 0px;
+  width: 100%;
+}
+
+
+
+
+
+/* DROPDOWN MENU */
+
+header {
+  background-color: #26272b;
+  font-family: sans-serif;
+  font-size: 10pt;
+  text-transform: uppercase;
+  margin: 0;
+  height: 2.15em;
+  text-align: right;
+}
+
+/* Set the layout of the menu: */
+.menu-item {
+  display: inline-block;
+  margin: 0 0;
+  min-width: 8em;
+  text-align: center;
+  background-color: #26272b;
+  padding: 0.5em 0;
+}
+
+/* Style the links: */
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color: #1CCDCA;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin: 0;
+  margin-top: 0.5em;
+  color: #000;
+  background-color: #fff;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #000;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+  min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: #baf0ef;
+  background-color: #a2a2a2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'MangoG';
+    src: url(./fonts/MangoGrotesque-VF.ttf) format('truetype');
+    font-style: normal;
+    font-size: large;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* What is the weight for the “bold” version?*/
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* What is the style for the “italic” version? */
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Add the URL, weight, and style for the “bold-italic” version: */
+@font-face {
+    font-family: 'Arvo';
+    src: url('') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* DROPDOWN MENU */
+
+
+
+/* Set the layout of the menu: */
+.menu-item {
+  display: inline-block;
+  margin: 0 0;
+  min-width: 8em;
+  text-align: center;
+  background-color: #26272b;
+  padding: 0.5em 0;
+}
+
+/* Style the links: */
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color: #1CCDCA;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin: 0;
+  margin-top: 0.5em;
+  color: #000;
+  background-color: #fff;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #000;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+  min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: #baf0ef;
+  background-color: #a2a2a2;
+}
+
+.navbar {
+  border-bottom: 2px solid #007bff; /* Add a blue border below the navbar */
+}
+
+.nav-link.active {
+  color: #007bff !important; /* Highlight active link */
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
