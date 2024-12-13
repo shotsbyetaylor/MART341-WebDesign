@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Head Elements">
+    <meta name="author" content="Justine Evans">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defining Head Elements: An Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style2.css">
+    <style>
+      html {
+        background-color: rgb(77, 77, 77);
+      }
+
+      body {
+        text-align: center;
+        font-family: 'MangoG', sans-serif;
+      }
+
+
+
+      .links {
+          margin-left: 20%;
+          margin-right: 20%;
+          border: 5px outset;
+          border-width: 20px;
+          background-color: lightblue;
+          text-align: center;
+          position: relative;
+          bottom: 50px;
+          
+        }
+
+      .centered-list-container {
+           text-align: center;
+        }
+        
+      .centered-list {
+          display: inline-block;
+          text-align: left; /* Optional: aligns list items text to the left within the list */
+        }
+
+      .border {
+          margin-left: 10%;
+          margin-right: 10%;
+          font-family: 'Arvo', sans-serif;
+          text-align: justify;
+      }
+
+      .p4 {
+          font-family: Times;
+      }
+
+.hover-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adds a smooth transition */
+    font-size: 150%;
+}
+
+/* Hover effect */
+.hover-button:hover {
+    background-color: #2980b9;
+    color: red;
+}
+
+        
+    </style>
+  </head>
+   
+   <body class="outer-box">
+
+
+  
+
+
+
+
+
+
+
+
+
+
+    <header>
+      <div class="menu-item">
+         <a href="home.html">Home</a></div>
+      <div class="menu-item">
+         <a href="avail.html">Availabilities</a></div>
+      <div class="menu-item">
+         <a href="gallery.html">Gallery</a></div>
+      <div class="menu-item dropdown">
+         <a href="index.html">Guides</a>
+         <div class="dropdown-content">
+            <div class="dropdown-item">
+               <a href="#">Shutter Speed</a></div>
+            <div class="dropdown-item">
+               <a href="#">Appeture</a></div>
+            <div class="dropdown-item">
+               <a href="#">Iso</a></div>
+         </div>
+      </div>
+   </header>
+
+
+   <div class="container mt-5">
+    <h1 class="text-center">Mountain State Media</h1>
+    <p class="text-center">Montana Media Collective</p>
+  </div>
+
+  <br>
+
+  <img src="media/VideoTeam_2024.jpg" alt="High iso vs low iso examples.">
+
+
+      <br />
+      <br />
+      <br />
+      <br />
+      
+   <div class="container mt-5">
+    <h1 class="text-center">Basics of Shutter Speed</h1>
+    <p class="text-center"><em>Speed in which the camera's shutter opens and closes.</em></p>
+  </div>
+  <br />
+      <h6 class="border">The first step to dialing in you camer settings is finding your shutter speed. 
+        Shutter speed is the time it takes for the shutter to open and close, exposing the camera sensor to what is in frame. 
+        Shutter speed is the most important aspect of dialing in your settings.
+        Shutter speed is meassured in fractions of seconds, for example the human eye sees an equivalent to 1/60th shutter speed(pronounced 1 over 60). 
+        Shutter speed is the aspect of your setting that controls how still the image is. 
+        A slower shutter speed can be a bit blurry with motion, thought a higher shutter speed can completely stop motion. 
+        A fast shutter speed(bigger denominator) like 1/1000 can completely stop rain in the air, dust on the ground, or even a car moving hundreds of miles per houw.
+        A good way to determine what your shutter speed needs to be is by thinking about motion. 
+        If the subject of your photo is still, you can get away with a lower shutter speed like 1/60. 
+        If the subject of your shot is in motion, you will want at least 1/125 shutter speed. 
+        This is the low end for photos that are NOT on a tripod and of a moving subject. 
+        If the subject of your photo is moving ver fast, like a football player running for the endzone, you will want a higher shutter speed. 
+        A good shutter speed for sports is 1/1000, and many photographers will go up to 1/4000. 
+        Reminder, this means the shutter opens and closes for one four-thousandth of a second.
+        Now that you have your shutter speed picked out, let's figure out apeture!
+      </h6>
+
+
+      <img src="media/shutter_sbs.jpg" alt="High iso vs low iso examples.">
+
+      <div class="container mt-5">
+        <h1 class="text-center">Basics of Appeture</h1>
+        <p class="text-center"><em>How open or closed your iris is.</em></p>
+      </div>
+      <br />
+      <h6 class="border">
+        Your appeture is essentially how open the iris of your camera is. 
+        Appeture is also the setting that conrols how blurry the background(and foreground) of the photo are. 
+        Most decent lenses have an apeture at least as low as 2.8, some going as low as 1.2. 
+        The lower your appeture, the blurrier the background. 
+        When your appeture is as low as possible, this is known as shooting wide open. 
+        Shooting wide open means that the iris of your lens is - literally - as wide open as it can go. 
+        Opening up your iris(lowering your appeture) also allows more light in, with the entire lens taking in light, whereas shooting with a higher appeture closes the iris, allowing less light into the camera. 
+        When shooting at a higher appeture, you have to make sure that the image does not get too dark. 
+        If your image is too dark, you can do one of two things. 
+        <div class="centered-list-container">
+          <ol class="centered-list  p4">
+          <li id="v1">You can lower your shutter speed. 
+            This allows the shutter to stay open for longer, exposing the sensor to the light of the image for longer.
+          </li>
+          <br />
+          <li>
+            You can raise your iso. In the next section, we will cover what your iso is, and the limitations of adjusting it.
+          </li>
+        </ol>
+
+        <br />
+
+      <img src="media/app_sbs.avif" alt="High iso vs low iso examples.">
+
+      </h6>
+
+      <div class="container mt-5">
+        <h1 class="text-center">Basics of ISO</h1>
+        <p class="text-center"><em>Artificial added light.</em></p>
+      </div>
+      <br />
+      <h6 class="border">
+        Iso(pronounced either EYE-so or I S O) is the easiest concept in camera settings, though is very complicated behind the scenes. 
+        Higher iso increases the brightness of the photo, but also increases the noise or grain. 
+        To a point, this is fine. 
+        In outoor photography where lighting is out of control, iso is normally the most adjusted setting, with it not affect style to much whereas shutter speed and appeture completely change the final image.
+        Most studio photographers keep their iso as low as possible, bringing in the least amount of grain. 
+        This creates the least noise and cleanest image possible. 
+        Raising your iso too high can ruin the photo though, so be careful and only raise it to a safe amount, on most cameras this could be 800 or 1600, but on higher end professional camera up to 12,800.
+      </h6>
+
+      <img src="media/iso_sbs.jpg" alt="High iso vs low iso examples.">
+
+      <div class="container mt-5">
+        <h1 class="text-center">Selecting Your Style</h1>
+        <p class="text-center"><em>This part is completely up to you.</em></p>
+      </div>
+      <h6 class="border">
+        There are a lot of rules in photography that normally should not be broken, but in a creative space it is OKAY to break rules, as long as you know what rule you're breaking and you're breaking the rule with a purpose. 
+        Although having a slow shutter speed can make a photo less crisp and sharp, sometimes the motion blur can help tell a better story, showing the motion and pace of the action being captured. 
+        It is important for a beginner photographer to break all these rules and make mistakes throughout the process to learn how to manipulate their settings and find their own creative style.
+      </h6>
+      
+      <img src="media/ss_ex.webp" alt="Slow shutter speed example.">
+
+        <br />
+        <br />
+
+      <button class="hover-button">Visit our Intsagram</button>
+
+
+      <br />
+      <br />
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.993963866905!2d-113.99844112381344!3d46.843808740340286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcdbca72f9ecf%3A0x79341c3fe03541e8!2sLewis%20%26%20Clark%20Village!5e0!3m2!1sen!2sus!4v1729106972947!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br />
+        <br />
+        <br />
+
+
+
+        <footer>
+          <div class="menu-item">
+             <a href="home.html">Home</a></div>
+          <div class="menu-item">
+             <a href="avail.html">Availabilities</a></div>
+          <div class="menu-item">
+             <a href="gallery.html">Gallery</a></div>
+          <div class="menu-item dropdown">
+             <a href="index.html">Guides</a>
+             <div class="dropdown-content">
+                <div class="dropdown-item">
+                   <a href="#">Shutter Speed</a></div>
+                <div class="dropdown-item">
+                   <a href="#">Appeture</a></div>
+                <div class="dropdown-item">
+                   <a href="#">Iso</a></div>
+             </div>
+          </div>
+        </footer>
+
+        <br />
+        
+   </body>
+
+</html>
